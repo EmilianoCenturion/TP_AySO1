@@ -1,0 +1,269 @@
+ls -la
+ls -la $home
+ls -la /home/vagrant/
+ls -la /home/vagrant/.ssh/
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+ll
+ll repogit/
+cd repogit/
+ll
+git clone git@github.com:EmilianoCenturion/TP_AySO1.git
+ll
+git status
+cd TP_AySO/
+cd TP_AySO1/
+LL
+ll
+git status
+git add .
+git status
+gti commit -m "add: primer commit"
+git commit -m "add: primer commit"
+git config --global user.name "Emuardo"
+gti commit -m "add: primer commit"
+git commit -m "add: primer commit"
+git add .
+git commit -m "add: primer commit"
+touch un_archivo
+git commit -m "add: primer commit"
+git add un_archivo
+git commit -m "add: primer commit"
+git status
+git spush
+git push
+man ssh-keygen
+man man
+man passwd 
+man 5 passwd
+man ls
+man ls -l
+ls -lh
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail - head -n1
+grep "model name" /proc/cpuinfo | head -n1
+cat /proc/cpuinfo | grep "model name" | tail
+cat /proc/cpuinfo | grep "model name" | tail -n1 | wc
+man -k net
+man -k .net
+man man
+cd /repogit
+ls -la -t ed25519
+echo hola
+echo hola > un_archivo
+cat un_archivo
+cat unarchivo
+cat un_archivo
+ls -l 
+ls -l > un_archivo 
+cat un_archivo
+echo hola >> un_archivo
+cat un_archivo
+bc <<<5+2
+
+wc -l << EOF
+L1
+l1
+wc -l << EOF
+L1
+l1
+
+wc -l << EOF
+l1
+l2
+l3
+EOF
+
+cat << FIN > otro_archivo
+l1
+l2
+l3
+FIN
+
+ll
+cat otro_archivo 
+c
+cd
+ls -la
+history -a
+cat .bash_history
+cat .bashrc
+ps -ef | head -n1
+ps -ef | head -n4
+sleep 60
+sleep 60 &
+ps -ef |grep 96358
+ps -ef |grep 92872
+logout
+tail -f /var/log/dmesg 
+sudo tail /var/log/dmesg 
+man jounercontrol}
+man jounercontrol
+man journalctl
+sudo cat /var/log/dmesg |grep enp0s3 
+sudo journalctl -k
+sudo journalctl -k |grep sda
+cat /proc/meminfo 
+free -h
+free 
+lsusb
+mkdir
+mkdir ejemplo1
+ll 
+ls -l 
+mkdir ejemplo2/hijo
+man mkdir
+mkdir -p ejemplo2/hijo -p 
+echo $?
+man mkdir
+man ls
+ls *l 
+ls -l 
+ls -l ejemplo/
+ls -l ejemplo2/
+mkdir -p ejemplo3/{mama,papa}
+tree ejemplo3/
+mkdir -p ejemplo4/{mama,papa}/hijo
+mkdir -p ejemplo5/{mama,papa}/hijo_{1,5}
+mkdir -p ejemplo5/{mama,papa}/hijo_{1.5}
+apt install tree
+sudo app update ; sudo apt install tree
+apt install tree
+sudo app update ; sudo apt install tree
+snap install tree
+sudo apt install tree
+sudo snap install tree
+tree ejemplo3/
+tree ejemplo5/
+tree ejemplo4/
+logout
+cd
+mkdir repogit
+cd repogit
+git@github.com:EmilianoCenturion/TP_AySO1.git
+git clonegit@github.com:EmilianoCenturion/TP_AySO1.git
+git clone git@github.com:EmilianoCenturion/TP_AySO1.git
+cd TP_AySO1/
+PWD
+pwd
+ls -l
+cat /etc/os-release 
+cat man grep
+
+grep HOME_URL /etc/os-release 
+grep - HOME_URL /etc/os-release 
+grep -I HOME_URL /etc/os-release 
+grep -i HOME_URL /etc/os-release 
+grep hOME_URL /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep HoME_URL /etc/os-release 
+grep -i HoME_URL /etc/os-release 
+whoami
+echo 
+git add
+git add .
+git commit -m "ADD: agregado 1TP sobre datos_usarios.txt"
+git status
+cpuinfo
+cat /proc/cpuinfo
+
+grep cpucores /proc/cpuinfo
+grep cpucores cat /proc/cpuinfo
+grep cores cat /proc/cpuinfo
+grep cores cat -n1 /proc/cpuinfo
+grep cores cat tail -n1 /proc/cpuinfo
+grep cores cat /proc/cpuinfo tail -1
+cat grep cores /proc/cpuinfo tail -1
+grep cores /proc/cpuinfo tail -1
+grep cores /proc/cpuinfo tail -n1
+grep cores -n1 /proc/cpuinfo tail 
+grep cores tail -n1 /proc/cpuinfo 
+grep cores /proc/cpuinfo 
+grep cores /proc/cpuinfo head -n1 
+grep cores /proc/cpuinfo 
+grep cores /proc/cpuinfo | head -n1 
+grep cores /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+
+git commit -m "feat: Añadiendo informacion de CPU"
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+man grep
+cat /etc/passwd
+cat /etc/passwd -n10
+cat /etc/passwd | -n10
+cat /etc/passwd | -n1
+cat /etc/passwd | tail -n1
+cat /etc/passwd | tail -n10 
+cat /etc/passwd | head -n10 
+cat /etc/passwd
+cat /etc/passwd | head -n10 
+cat /etc/passwd | head -n9
+cat /etc/passwd | head -n10 
+
+cat /etc/passwd | head -n10 
+cat | grep -v /etc/passwd | head -n10 
+cat | grep -v 'nologin' /etc/passwd | head -n10 
+grep -v 'nologin' /etc/passwd | head -n10 
+man sort
+grep -v |sort -k 7|'nologin' /etc/passwd | head -n10 
+grep -v 'nologin' /etc/passwd |sort -k 7| head -n10 
+grep -v 'nologin' /etc/passwd | head -n10 | sort -k 7  >> lista_ordenada.txt
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "Nombre del comando: tcpdump Comando a ejecutar para realizar la busqueda: sudo tcpdump -i"  >> comando_dump_net.txt
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y Analizar el trafico de red"
+cat << Alumno: <Emilino David Centurion> Division: <313-2> Turno: <Noche>EOF >> README.md
+Alumno: <Emiliano David Centurion>
+Division: <313-2>
+Turno: <Noche>
+
+cat << EOF >> README.md
+Alumno: <Emiliano David Centurion>
+Division: <313-2>
+Turno: <Noche>
+
+
+cat << EOF >> README.md
+Alumno: <Emiliano David Centurion>
+Division: <313-2>
+Turno: <Noche>
+
+
+cat << EOF >> README.md
+Alumno: <Emiliano David Centurion>
+Division: <313-2>
+Turno: <Noche>
+
+
+EOF
+
+git status
+git add .
+git status
+git commit -m "ADD: Datos del alumno"
+history -a \$HOME/.bash_history
+history -a 
+history -a $HOME/.bash_history
+cat .bash_history
+cat /.bash_history
+history -a 
+cp "%HOME/.bash_history" "Historial_Comandos_Emiliano_Centurion.txt"
+cat /.bash_history
+history -a
+ls -a $HOME | grep .bash_history
+cat /.bash_history
+cat /bash_history
+ls -a $HOME | grep .bash_history
+cat .bash_history
+cat /.bash_history
+history -a
